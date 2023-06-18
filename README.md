@@ -148,20 +148,25 @@ DBHelper.java -- Database class
 
 > **III.** **DENEYSEL** **SONUÇLAR**
 
-![](images/5a5omvye.png)
+![](images/sic24ix1.png)
+![](images/sasqs0c0.png)
+![](images/s31xfsii.png)
+![](images/qinh22lg.png)
+![](images/nnebn1gf.png)
+
 
 
 **IV.SONUÇ**
+
+ Bu projede bir mobil oyunun birçok aşamasının olduğu basit bir kelime
+ kontrolü için bile elimizde kelimelerin bulunduğu bir veri tabanı
+ gerekliliği aynı zamanda bu veri tabanı bağlantısının hızlı olabilmesi
+ için kullanıcının dahili hafızasına kaydetme gerekliliğini gördük. Her
+ ne kadar basit gibi görünse de yukarıdan aşağıya düşen bir harf
+ arkasında birçok senkronizasyon problemi doğuran bir işlem olduğunu
+gördük.
 >
-> Bu projede bir mobil oyunun birçok aşamasının olduğu basit bir kelime
-> kontrolü için bile elimizde kelimelerin bulunduğu bir veri tabanı
-> gerekliliği aynı zamanda bu veri tabanı bağlantısının hızlı olabilmesi
-> için kullanıcının dahili hafızasına kaydetme gerekliliğini gördük. Her
-> ne kadar basit gibi görünse de yukarıdan aşağıya düşen bir harf
-> arkasında birçok senkronizasyon problemi doğuran bir işlem olduğunu
-> gördük.
->
-> **KAYNAKLAR**
+ **KAYNAKLAR**
 >
 > • Intro to Java Programming,
 > Comprehensive Version (10th Edition) Y. Daniel Liang
