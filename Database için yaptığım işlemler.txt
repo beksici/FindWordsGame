@@ -1,0 +1,10 @@
+https://github.com/CanNuhlar/Turkce-Kelime-Listesi 
+Bu linkteki kelime listesini aldım notepadte açtım ve düzenledim satır başına sonuna tırnak ekledim 
+NotePad( ctrl+ H ) ile değiştir seçeneğini kullandım \n i  ,'  a \r yi de sadece tırnağa çevirdim altta aradığın şeyi genelleştirmiş arama yapman gerekir
+
+delete FROM wordsgame.words where length(mywords)<3;  ile 3 harften küçükleri sildim
+delete from wordsgame.words where mywords like '% %';  % nin anlamı şu ki %a olsaydı  a ile biten demekti a% olsaydı a ile başlayan demekti mysql like konusu
+SELECT count(mywords) FROM wordsgame.words; ile saydırdık 60k kayıt
+
+update words set mywords=REPLACE(mywords,'â','a');   ve    update words set mywords=REPLACE(mywords,'Â','a') ile de karakter düzenlemesi yapıldı
+delete from wordsgame.words where mywords like '%-%'  tire olanlar silindi

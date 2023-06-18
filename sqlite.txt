@@ -1,0 +1,30 @@
+tablo oluşturma -------------
+
+CREATE TABLE IF NOT EXISTS Ogrenciler(
+ad VHARCHAR,
+soyad VARCHAR,
+ogrenci_no INT);
+
+
+Tablo veri ekleme------------
+INSERT INTO Ogrenciler (ad,soyad,ogrenci_no) VALUES ('ben','ten',115)
+
+Tablo veri silme----------------
+DELETE FROM Ogrenciler WHERE ad='ben'
+DELETE FROM Ogrenciler
+
+
+Update etme------------
+UPDATE Ogrenciler SET soyad='ten',Ogrenci_no=1556 WHERE Ogrenci_no=1777;
+UPDATE Ogrenciler SET ad='sen' WHERE ad='ben';
+
+Tabloyu silme----------
+DROP TABLE Ogrenciler -- kökten siliyor
+
+seçme-----------------------
+SELECT*FROM Ogrenciler
+SELECT ad,soyad FROM Ogrenciler WHERE ad='ben'
+SELECT*FROM Ogrenciler WHERE soyad LIKE '%z'  --sonu z ile biten yüzde sağda olursa z ile başlayan  iki tarafta da olursa z içeren
+SELECT*FROM Ogrenciler ORDER BY soyad ASC --  artan sırada demek azalan için DESC 
+
+
