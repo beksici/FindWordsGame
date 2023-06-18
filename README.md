@@ -148,6 +148,8 @@ DBHelper.java -- Database class
 
 > **III.** **DENEYSEL** **SONUÇLAR**
 
+![](images/5a5omvye.png)
+
 
 **IV.SONUÇ**
 >
